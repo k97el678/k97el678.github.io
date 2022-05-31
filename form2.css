@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+}
+
+h3{
+  margin:20px 0 0 50px;
+}
+.cols li {
+  display: inline-block;/*세로배치 --> 가로 배치 적용*/
+}
+
+.cols li.col1{
+  width:200px;
+  text-align: right;
+}
+
+.cols li.col2{
+  width:600px;
+
+}
+
+.cols li.col2 input.hp{
+  width:35px;
+}
+.
