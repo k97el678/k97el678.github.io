@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+  box-sizing: border-box;/*테두리값이 도형안쪽으로*/
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  }
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background:blue;
+  color: white;
+  font-size: 30px;
+  border: 10px solid gray;
+  }
+
+  .nav {
+  overflow: hidden;
+  background-color: #1f454c;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  }
+
+
+  /* Style the navigation bar links */
+  .nav a {
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 18px;
+    font-size: large;
+    text-decoration: none;
+  }
+
+
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: #33c281;
+    color: black;
+  }
+
+  /* Active/current link */
+  .nav a.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+.container {
+  width: 100%;
+  background-color: white;
+
+  /*container 값을 지정(margin 값을 설정)해주어야 nav에 있는 position:sticky가 작동하는 것 같음*/
+  margin:0 auto;
+}
+
+  .container img{
+
+      float : right;
+      width: 200px;
+      height:200px;
+      vertical-align: bottom;
+
+      /* 이미지 오른쪽에 여백 넣는거*/
+      margin-right: 35px;
+  }
+
+
+.container h4{
+  padding-bottom: 23px;
+      font-size: xx-large;
+      position: top;
+      border-bottom: solid;
+      border-width: 2px;
+      margin-right: 380px
+
+  }
+
+
+.container p{
+  font-size: 20px;
+  line-height: 180%;
+}
+
+
+
+.content1{
+  width: 100%;
+     background-color: white;
+     padding: 25px;
+     float: left;
+     border-bottom: solid;
+     border-width: 1px;
+   }
+
+
+.content2{
+  width: 100%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    border-bottom: solid;
+    border-width: 1px;
+  }
+
+
+.content3{
+  width: 100%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    border-bottom: solid;
+    border-width: 1px;
+  }
+
+
+
+  /* Footer */
+  .footer{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background: white;
+    padding: 5px;
+  }
+
+  .img-wrapper{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer img{
+    width: 40px;
+    height: 40px;
+    float:right;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+
+    /* 그림을 둥글게*/
+    border-radius: 50%;
+    ;
+  }
+ .footertext{
+    font-size: 15px;
+    padding: 10px;
+    font-weight:bold;
+  }
