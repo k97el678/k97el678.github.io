@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>게시판</title>
+      <link rel="stylesheet" type="text/css" href="profile.css"/>
+      <link rel="stylesheet" type="text/css" href="form2.css"/>
+  </head>
+  <body>
+    <div class="header">
+        <h2>안녕하세요!
+        <br>저는 김석명이라고 합니다.</h2>
+    </div>
+    <div class="nav">
+      <a href="index.html"><h3>Profile</h3></a>
+      <a href="hobby.html"><h3>Hobby</h3></a>
+      <a href="future.html"><h3>Future</h3></a>
+      <a href="form2.html"><h3>게시판</h3></a>
+    </div><!--header-->
+
+
+    <aside class="memer_box">
+      <ul>
+        <li>
+          <ul class="cols">
+            <li class="col1">아이디:</li>
+            <li class="col2"><input type="text" name="userid"
+              maxlength="10" autofocus
+              placeholder="영문/숫자 혼합10자" value="">
+              <input type="button" name="user_IDcheck" value="중복확인">
+          </ul>
+        </li>
+        <li>
+          <ul class="cols">
+            <li class="col1">비밀번호:</li>
+            <li class="col2"><input type="password" name="pwd"
+              maxlength="10" autofocus
+              placeholder="영문/숫자 혼합10자" value="">
+          </ul>
+        </li>
+        <li>
+          <ul class="cols">
+            <li class="col1">비밀번호확인:</li>
+            <li class="col2"><input type="password" name="pwd1"
+              maxlength="10" autofocus
+              placeholder="비밀번호확인">
+              <input class="col2" type="button" name="user_PWcheck" value="비밀번호 재확인">
+          </ul>
+        </li>
+        <li>
+          <ul class="cols">
+            <li class="col1">이름:</li>
+            <li class="col2"><input type="txt" name="user_name"
+              maxlength="10" autofocus
+              placeholder="홍길동">
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">생년월일:</li>
+            <li class="col2"><input type="date">
+              <lable><input type="radio" name="sex" selected value="여성">여성</label>
+              <lable><input type="radio" name="sex" value="남성">남성</label>
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">휴대전화:</li>
+            <li class="col2"><input type="text" name="tel1">-<input type="text" name="tel2">
+              -<input type="text" name="tel3">
+              <input type="button" name="certification" value="인증번호받기">
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1"></li>
+            <li class="col2"><input type="text" name="certification" placeholder="인증번호입력">
+              <input type="button" name="certification" value="확인">
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">이메일:</li>
+            <li class="col2"><input type="email" name="user_email"
+               placeholder="email@sdu.ac.kr">
+            <select class="" name="">
+              <option value="basic">선택</option>
+              <option value="naver">naver.com</option>
+              <option value="google">gmail.com</option>
+            </select>
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">관심분야:</li>
+            <li class="col2">
+              <input type="checkbox" name="hobby1" checked>운동
+              <input type="checkbox" name="hobby2" checked>독서
+              <input type="checkbox" name="hobby3" checked>영화/드라마 감상
+              <input type="checkbox" name="hobby4" checked>스포츠 관람
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">참고사항:</li>
+            <li class="col2">
+              <textarea name="name" rows="5" cols="30"></textarea>
+            </li>
+          </ul>
+        </li><!--cols-->
+        <li>
+          <ul class="cols">
+            <li class="col1">파일첨부:</li>
+            <li class="col2">
+              <input type="file" name="" value="">10MB까지 가능
+            </li>
+          </ul>
+        </li><!--cols-->
+        <br>
+        <center><input type="reset" name="" value="초기화"
+          onclick="location.href="file.html" name="inputlist">
+        </center>
+      </ul>
+    </aside><!--memer_box"-->
+
+    <div class="footer">
+      <div class="footer img-wrapper">
+        <div class="img">
+            <a href="#">
+                <img src="https://k97el678.github.io/web1/img/seokmyeong.jpg" alt="석명_이미지">
+            </a>
+        </div>
+        <div class="img">
+        </div>
+      </div>
+      <div class="footertext">
+        <h5>copyright(c) 2022. 김석명. All rights reserved.</h5>
+      </div>
+    </div> <!--footer-->
+  </body>
+</html>
