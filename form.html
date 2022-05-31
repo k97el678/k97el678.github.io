@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Board</title>
+    <link rel="stylesheet" type="text/css" href="profile.css"/>
+
+    <style media="screen">
+      div{
+        margin-left:20px; padding:10px; ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <h2>안녕하세요!
+        <br>저는 김석명이라고 합니다.</h2>
+    </div>
+    <div class="nav">
+      <a href="index.html"><h3>Profile</h3></a>
+      <a href="hobby.html"><h3>Hobby</h3></a>
+      <a href="future.html"><h3>Future</h3></a>
+    </div><!--header-->
+    <div class="container">
+      <form class="" action="index.html" name="form1" method="post">
+
+        <fieldset>
+          <legend>개인정보입력</legend>
+          이름: <input type="text" name="" value="" ><br>
+          나이: <input type="text" name="" value=""> <br>
+
+          성별: 남 <input type="radio" name="gender" value="">
+                여 <input type="radio" name="gender" value=""><br>
+
+          관심 언어 : HTML5 <input type="checkbox" name="checkbox1" value="">
+                      Javascript <input type="checkbox" name="checkbox2" value="">
+                      Phtyon <input type="checkbox" name="checkbox3" value="">
+                      Java <input type="checkbox" name="checkbox4" value=""><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>기타</legend>
+          취미: <input type="text" name="" value="" style="margin:5px;"><br>
+          특기: <input type="text" name="" value="" style="margin:5px;"">
+        </fieldset>
+        <textarea name="text1" rows="8" cols="30" style="margin:10px 0 0 1px;">Information</textarea><br>
+        <input type="submit">
+        <input type="reset"><br><br>
+        <!--select 추가-->
+        <label for="lang_select">★ 관심과목 선택★</label><br>
+        <select id="lang_select"  size="6" name="" multiple style="width:200px">
+          <option value="">--관심 언어를 선택해 주세요-</option>
+          <option value="">① HTML5</option>
+          <option value="">② Javascript</option>
+          <option value="">③ CSS</option>
+        </select>
+      </form>
+
+      <form action="" name="form2" method="post" style="margin:20px 0; padding:10px; border:2px solid gray;">
+        <legend>★ 추가 정보 입력 ★</legend>
+        <div>
+            <label for="name">① Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </div>
+        <div>
+            <label for="mail">② E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+        </div>
+        <div>
+            <label for="msg">③ Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="footer img-wrapper">
+        <div class="img">
+            <a href="#">
+                <img src="https://k97el678.github.io/web1/img/seokmyeong.jpg" alt="석명_이미지">
+            </a>
+        </div>
+        <div class="img">
+        </div>
+      </div>
+      <div class="footertext">
+        <h5>copyright(c) 2022. 김석명. All rights reserved.</h5>
+      </div>
+    </div> <!--footer-->
+  </body>
+</html>
