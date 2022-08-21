@@ -1,3 +1,5 @@
+
+/*220820- 화면변환 수정*/
 @charset "utf-8";
 *{
   box-sizing: border-box;/*테두리값이 도형안쪽으로*/
@@ -59,7 +61,7 @@ body {
   margin:0 auto;
 }
 
-  .container img{
+.container img{
 
       float : right;
       width: 200px;
@@ -70,16 +72,21 @@ body {
       margin-right: 35px;
   }
 
-
+.container1{
+  border: solid 2px red;
+}
+.container1 img{
+  float:right;
+}
 .container h4{
   padding-bottom: 23px;
-      font-size: xx-large;
-      position: top;
-      border-bottom: solid;
-      border-width: 2px;
-      margin-right: 380px
-
+  font-size: xx-large;
+  position: top;
+  border-bottom: solid;
+  border-width: 2px;
+  margin-right: 100px
   }
+
 
 
 .container p{
